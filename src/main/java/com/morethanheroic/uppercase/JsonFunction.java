@@ -9,8 +9,8 @@ import java.util.function.Function;
 import java.util.stream.IntStream;
 
 @Component
-public class UppercaseFunction implements Function<Map<String, String>, Map<String, String>> {
-    private final Logger logger = LoggerFactory.getLogger(UppercaseFunction.class);
+public class JsonFunction implements Function<Map<String, String>, Map<String, String>> {
+    private final Logger logger = LoggerFactory.getLogger(JsonFunction.class);
 
     @Override
     public Map<String, String> apply(Map<String, String> data) {

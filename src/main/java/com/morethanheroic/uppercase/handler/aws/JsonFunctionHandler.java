@@ -4,5 +4,5 @@ import org.springframework.cloud.function.adapter.aws.SpringBootRequestHandler;
 
 import java.util.Map;
 
-public class UppercaseFunctionHandler extends SpringBootRequestHandler<Map<String, String>, Map<String, String>> {
+public class JsonFunctionHandler extends SpringBootRequestHandler<Map<String, String>, Map<String, String>> {
 }
