@@ -13,10 +13,4 @@ public class FuncTest {
                 function.apply(Map.of("something", "Some message")));
     }
 
-    @Test
-    public void getJsonWithKeyMessage() {
-        Assert.assertEquals(Map.of("message", "Msae"),
-                function.apply(Map.of("message", "Message")));
-    }
-
 }
