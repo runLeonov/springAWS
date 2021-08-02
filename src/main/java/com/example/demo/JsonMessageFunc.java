@@ -14,9 +14,6 @@ public class JsonMessageFunc implements Function<Map<String, String>, Map<String
 
     @Override
     public Map<String, String> apply(Map<String, String> data) {
-        for (Map.Entry<String, String> obj : data.entrySet()) {
-                logger.info("ya ebal suka oyat pusto");
-        }
         final String KEY_MESSAGE = "message";
         if (data == null || !data.containsKey(KEY_MESSAGE)) {
             logger.info("Json object has to have 'message' key");
